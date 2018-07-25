@@ -1,7 +1,7 @@
-#include <xCore.h>
-#include <xOD01.h>
+#include <xCore.h> //add core library @ https://github.com/xinabox/xCore
+#include <xOD01.h> //add sensor library @ https://github.com/xinabox/xSW01
 #include "TIMER_CTRL.h"
-#include <SparkFun_MAG3110.h>
+#include <SparkFun_MAG3110.h> //add Sparkfun library @ https://github.com/sparkfun/SparkFun_MAG3110_Breakout_Board_Arduino_Library
 
 #if defined(ESP8266)
 #define RED   RED
